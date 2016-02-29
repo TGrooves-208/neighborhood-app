@@ -14,6 +14,7 @@
 		1BF12C151C83EC7B00CDBCF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF12C131C83EC7B00CDBCF3 /* LaunchScreen.storyboard */; };
 		1BF12C1E1C83EC9600CDBCF3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF12C1D1C83EC9600CDBCF3 /* Post.swift */; };
 		1BF12C211C84202500CDBCF3 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF12C201C84202500CDBCF3 /* PostCell.swift */; };
+		1BF12C241C848CDA00CDBCF3 /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF12C231C848CDA00CDBCF3 /* AddPostVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1BF12C161C83EC7B00CDBCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BF12C1D1C83EC9600CDBCF3 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		1BF12C201C84202500CDBCF3 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		1BF12C231C848CDA00CDBCF3 /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +62,7 @@
 			children = (
 				1BF12C1C1C83EC8400CDBCF3 /* Model */,
 				1BF12C0A1C83EC7B00CDBCF3 /* AppDelegate.swift */,
-				1BF12C0C1C83EC7B00CDBCF3 /* ViewController.swift */,
-				1BF12C0E1C83EC7B00CDBCF3 /* Main.storyboard */,
 				1BF12C111C83EC7B00CDBCF3 /* Assets.xcassets */,
-				1BF12C131C83EC7B00CDBCF3 /* LaunchScreen.storyboard */,
 				1BF12C161C83EC7B00CDBCF3 /* Info.plist */,
 			);
 			path = "my-hood-boise";
@@ -81,9 +80,21 @@
 		1BF12C1F1C841FA900CDBCF3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1BF12C131C83EC7B00CDBCF3 /* LaunchScreen.storyboard */,
+				1BF12C0E1C83EC7B00CDBCF3 /* Main.storyboard */,
 				1BF12C201C84202500CDBCF3 /* PostCell.swift */,
+				1BF12C221C848C0100CDBCF3 /* Controller */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		1BF12C221C848C0100CDBCF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1BF12C0C1C83EC7B00CDBCF3 /* ViewController.swift */,
+				1BF12C231C848CDA00CDBCF3 /* AddPostVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 			files = (
 				1BF12C1E1C83EC9600CDBCF3 /* Post.swift in Sources */,
 				1BF12C0D1C83EC7B00CDBCF3 /* ViewController.swift in Sources */,
+				1BF12C241C848CDA00CDBCF3 /* AddPostVC.swift in Sources */,
 				1BF12C0B1C83EC7B00CDBCF3 /* AppDelegate.swift in Sources */,
 				1BF12C211C84202500CDBCF3 /* PostCell.swift in Sources */,
 			);
@@ -310,6 +322,7 @@
 				1BF12C1B1C83EC7B00CDBCF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
